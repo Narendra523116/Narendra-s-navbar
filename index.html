@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive nav-bar</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- iam going to build a responsive navbar -->
+
+    <header id="navbar">
+        <nav class="navbar-container container">
+            <a href="/" class="home-link">
+                <div class="navbar-logo"></div>
+                Narendra's Navbar
+            </a>
+
+            <button
+            type="button"
+            id="navbar-toggle"
+            aria-controls="navbar-menu"
+            aria-expanded="false"
+            aria-label="tpggle menu"
+            >
+
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+            </button>
+
+            <div id="navbar-menu" aria-labelledby="navbar-toggle">
+                <ul class="navbar-links">
+                    <li class="navbar-item"><a href="/" class="navbar-link">About</a></li>
+                    <li class="navbar-item"><a href="/" class="navbar-link">Contact Us</a></li>
+                    <li class="navbar-item"><a href="/" class="navbar-link">Blog</a></li>
+                    <li class="navbar-item"><a href="/" class="navbar-link">Store</a></li>
+                    <li class="navbar-item"><a href="/" class="navbar-link">Help</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
