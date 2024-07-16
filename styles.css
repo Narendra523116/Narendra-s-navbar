@@ -150,5 +150,37 @@
     padding: 1em;
   }
 
+  @media screen and (min-width : 700px){
+
+    #navbar-toggle{
+        display : none;
+    }
+
+    #navbar-menu{
+        position : static;
+        opacity: 1;
+        visibility: visible;
+        display: block;
+        height : 100%;
+        background-color: none;
+    }
+
+    .navbar-links{
+        margin : 0px;
+        padding : 0px;
+        box-shadow: none;
+        position: static;
+        flex-direction: row;
+        width: 100%;
+        height : 100%;
+        background-color: none;
+    }
+
+    .navbar-link{
+        background-color: none;
+    }
+
+  }
+
 
   
