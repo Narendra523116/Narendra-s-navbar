@@ -86,6 +86,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+
+    transition: all 0.4s ease-in;
   }
   
   .icon-bar {
@@ -98,7 +100,7 @@
   }
   
   #navbar-toggle:is(:hover) .icon-bar {
-    width: 57px;
+    /* width: 57px; */
   }
   
   #navbar-toggle[aria-expanded='true'] .icon-bar:is(:first-child, :last-child) {
